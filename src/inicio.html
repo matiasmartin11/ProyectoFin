@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="styles/inicio.css">
+</head>
+
+<body>
+   <div class="top">
+    <div id="topBar">
+        <nav>
+            <ul>
+                <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#"><img class="logoCarrito" src="media/usuario.png" alt="logoCarrito" width="20px" height="20px"> &nbsp;<i
+                            class="fa fa-caret-down"></i></a>
+                    <div class="dd">
+                        <div id="up_arrow"></div>
+                        <ul>
+
+                            <li>Configuración</a></li>
+                            <li>Mis cultivos</a></li>
+                            <li>Mis trabajadores</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#"><img class="logoCarrito" src="media/carrito.png" alt="logoCarrito" width="20px" height="20px"></a></li>
+            </div>
+            </ul>
+        </nav>
+    </div>
+   </div>
+    
+
+    <header>
+        <img class="logoGrande" src="media/logo.png" alt="logoCRIA">
+    </header>
+
+    <div id="menuHorizontal">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Foro</a></li>
+                <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Noticias </a>
+                    <div class="dd">
+                        <ul>
+                            <li><a href="https://elpais.com/noticias/agricultura/">El pais</a></li>
+                            <li><a href="https://www.europapress.es/temas/agricultura/">Europa press</a></li>
+                            <li><a href="https://cadenaser.com/tag/agricultura/a/">Cadena ser</a></li>
+                            <li><a href="https://agroinformacion.com/">Agroinformación</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Tienda</a></li>
+            </div>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="body">
+        <div class="precios">
+            <label for="selectF/V/FS" class="preciosF/V/FS">Precios</label>
+            <div class="preciosF/V/FS">
+                <select id="selectF/V/FS" name="selectF/V/FS" class="form-select">
+                    <option selected value="">Seleccione</option>
+                    <option value="frutas">Frutas</option>
+                    <option value="verduras">Verduras</option>
+                    <option value="frutosSecos">Frutos Secos</option>
+                </select>
+            </div>
+            <div class="preciosF/V/FS">
+                <select id="selectF/V/FS" name="selectF/V/FS" class="form-select">
+                    <option selected value="">Seleccione</option>
+                  <optgroup value="supermercado" label="Supermercado">
+                        <option value="mercadona">Mercadona</option>
+                        <option value="prika">Carrefour</option>
+                        <option value="dia">Dia</option>
+                        <option value="consum">Consum</option>
+                        <option value="coviran">Covirán</option>
+                    </optgroup>
+
+                    <optgroup value="alhondiga" label="Alhóndiga">
+                        <option value="casi">CASI</option>
+                        <option value="agrupaAdra">Agrupa Adra</option>
+                        <option value="cehorpa">Cehorpa</option>
+                        <option value="agroEjido">Agroejido</option>
+                        <option value="agrupaEjidoR">Agrupaejido (La Redonda)</option>
+                        <option value="laUnionR">La Unión (La Redonda)</option>
+                        <option value="agroPoniente">Agroponiente el Ejido</option>
+                        <option value="agrupaEjidoLC">Agrupaejido (La Costa)</option>
+                        <option value="laUnionCV">La Unión (Cuatro Vientos)</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div></div>
+            <div class="tablaprecios">
+              <iframe src="https://www.agropizarra.com/es/pizarra-subasta/" title="Tabladeprecios" width="500" height="300"></iframe>
+            </div>
+        </div>
+        <div class="tiempo">
+        </div>
+        <div class="footer">
+            <div class="listaFooter">
+                <ul>
+                    <h3 class="tituloEnlaces" >Enlaces de Interés</h6>
+                    <li><a class="aFooter" href="/contacto.html">Contacto</a></li>
+                    <li><a class="aFooter" href="terminos.html">Terminos</a></li>
+                    <li><a class="aFooter" href="ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+            <div class="redesSociales">
+                <ul>
+                    <li>Visite nuestras Redes Sociales</li>
+                    <li><a class="redFooter" href="https://twitter.com/imjustkuma"><img class="imagenInstagram" src="./media/redesSociales/instagram.png" alt="instagram">criagro_</a></li>
+                    <li><a class="redFooter" href="https://twitter.com/imjustkuma"><img class="imagenTwitter" src="./media/redesSociales/twitter.png" alt="twitter">criagro</a></li>
+                    <li><a class="redFooter" href="https://twitter.com/imjustkuma"><img class="imagenDiscord" src="./media/redesSociales/discord.png" alt="discord">criagro</a></li>
+                    <li>Ayuda</li>
+                    <li>Terminos</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+        </div>
+</body>
+
+</html>
